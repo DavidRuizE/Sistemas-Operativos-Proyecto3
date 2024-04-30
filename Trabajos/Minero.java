@@ -77,6 +77,7 @@ public class Minero extends AugmentedRobot implements Directions
 // tipo: indicates if the robot is TIPO_EXTRACTOR, TIPO_MINERO
 // id  : number that unique identifies the robot. Don't use the RobotID attrib from Parent classes.
 
+	private static int nextRobotId = 0; // control de id
 // Creates Database
 class Database {
     private static final ConcurrentHashMap<Integer, RobotData> robots = new ConcurrentHashMap<>();
@@ -84,6 +85,7 @@ class Database {
     public static void updateRobotData(int id, int tipoRobot, int avenidaActual, int calleActual, boolean encendido) {
         RobotData data = new RobotData(tipoRobot, avenidaActual, calleActual, encendido);
         robots.put(id, data);
+		System.out.println("ID: " + id + " - " + data);  // se agrega esta línea para depuración
     }
 
     public static RobotData getRobotData(int id) {
@@ -132,6 +134,8 @@ class Database {
 		this.id			= id;
 // Register the current position and locks it indicating that is occupied.
 		String posicion	= Integer.toString(calleActual) + " - " + Integer.toString(avenidaActual);
+		this.id = nextRobotId++; // Asigna el ID y luego incrementa el contador global, esto tambien ayudara a verlo en consola
+		Database.updateRobotData(this.id, this.tipoRobot, this.avenidaActual, this.calleActual, true);  // Asegurar que se registre inicialmente
 		objPosiciones.ocuparPosicion(posicion);
 // Add robot thread to the World.
 		World.setupThread(this);
@@ -141,6 +145,7 @@ class Database {
 	public void run()
 	{
 		ejecutarMina();
+		Database.printAllData();  //asegurar que refleje los cambios después de la ejecución
 	}
 
 // Determine move direction on the Street
@@ -186,7 +191,7 @@ class Database {
 			ejecutarLog = (debugHabilitado) ? logMensaje("Me muevo") : false;
 			move();
 			Database.updateRobotData(this.id, this.tipoRobot, nuevaAvenida, nuevaCalle, true);
-			Database.printAllData();
+			
 			posicion		= Integer.toString(calleActual) + " - " + Integer.toString(avenidaActual);
 // Release previous position where it was and update robot atrributes
 			ejecutarLog = (debugHabilitado) ? logMensaje("Libero posición anterior") : false;
