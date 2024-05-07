@@ -6,7 +6,6 @@ import java.util.Hashtable;
 import java.util.concurrent.ConcurrentHashMap;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.time.LocalDateTime;
 
 //public class Minero extends Robot implements Directions
 public class Minero extends AugmentedRobot implements Directions
@@ -19,7 +18,6 @@ public class Minero extends AugmentedRobot implements Directions
 	private int		avenidaActual;
 	private int		calleActual;
 	private int		id;
-	private int     sirenas;
 // Constants
 	private	static	final		int		AVENIDA_ESPERA_EXT	= 3;
 	private	static	final		int		AVENIDA_ESPERA_TREN = 12;
@@ -66,7 +64,6 @@ public class Minero extends AugmentedRobot implements Directions
 	private static	int					minerosSalida		= 0;
 	private static	int					beepersExtraidos	= 0;
 	private static	int					trenesSalida		= 0;
-	private static  int                 beeps 	           	= 0;
 	private static	Posiciones			objPosiciones;
 // Semaphores
 	private static	Semaphore			sem_extIngreso;
@@ -86,137 +83,59 @@ public class Minero extends AugmentedRobot implements Directions
 // Creates Database
 class Database {
     private static final ConcurrentHashMap<Integer, RobotData> robots = new ConcurrentHashMap<>();
-    private static final ConcurrentHashMap<LocalDateTime, LogEvento> logEventos = new ConcurrentHashMap<>();
-    private static final ConcurrentHashMap<LocalDateTime, EstadoPrograma> estadoProgramas = new ConcurrentHashMap<>();
 
-    public static void updateRobotData(int id, int tipoRobot, boolean encendido) {
-        RobotData data = new RobotData(tipoRobot, id, encendido);
+    public static void updateRobotData(int id, int tipoRobot, int avenidaActual, int calleActual, boolean encendido) {
+        RobotData data = new RobotData(tipoRobot, avenidaActual, calleActual, encendido);
         robots.put(id, data);
-        System.out.println("Robot Updated - " + data);
+		System.out.println("ID: " + id + " - " + data);  // se agrega esta línea para depuración
     }
 
     public static RobotData getRobotData(int id) {
         return robots.get(id);
     }
-
-    public static void logEvento(int idRobot, int avenidaActual, int calleActual, int sirenas) {
-        LocalDateTime now = LocalDateTime.now();
-        LogEvento evento = new LogEvento(now, idRobot, avenidaActual, calleActual, sirenas);
-        logEventos.put(now, evento);
-        System.out.println("Event Logged - " + evento);
+	
+    public static void printAllData() {
+		robots.forEach((id, data) -> System.out.println("ID: " + id + " - " + data));
     }
-
-    public static void updateEstadoPrograma(int estado) {
-        LocalDateTime now = LocalDateTime.now();
-        EstadoPrograma programa = new EstadoPrograma(now, estado);
-        estadoProgramas.put(now, programa);
-        System.out.println("Program State Updated - " + programa);
-    }
-
+	
     public static class RobotData {
-        int tipoRobot;
-        int idRobot;
-        boolean encendido;
-
-        public RobotData(int tipoRobot, int idRobot, boolean encendido) {
-            this.tipoRobot = tipoRobot;
-            this.idRobot = idRobot;
-            this.encendido = encendido;
-        }
-
-        @Override
-        public String toString() {
-            return String.format("RobotData{tipoRobot=%d, idRobot=%d, encendido=%s}", tipoRobot, idRobot, encendido);
-        }
-    }
-
-    public static class LogEvento {
-        LocalDateTime timeStamp;
-        int idRobot;
+		int tipoRobot;
         int avenidaActual;
         int calleActual;
-        int sirenas;
-
-        public LogEvento(LocalDateTime timeStamp, int idRobot, int avenidaActual, int calleActual, int sirenas) {
-            this.timeStamp = timeStamp;
-            this.idRobot = idRobot;
+        boolean encendido;
+		
+        public RobotData(int tipoRobot, int avenidaActual, int calleActual, boolean encendido) {
+			this.tipoRobot = tipoRobot;
             this.avenidaActual = avenidaActual;
             this.calleActual = calleActual;
-            this.sirenas = sirenas;
+            this.encendido = encendido;
         }
-
+		
         @Override
         public String toString() {
-            return String.format("LogEvento{timeStamp=%s, idRobot=%d, avenidaActual=%d, calleActual=%d, sirenas=%d}", timeStamp, idRobot, avenidaActual , calleActual, sirenas);
+            return "RobotData{" +
+				"tipoRobot=" + tipoRobot +
+				", avenidaActual=" + avenidaActual +
+				", calleActual=" + calleActual +
+				", encendido=" + encendido +
+				'}';
         }
     }
-
-    public static class EstadoPrograma {
-        LocalDateTime timeStamp;
-        int estado;
-
-        public EstadoPrograma(LocalDateTime timeStamp, int estado) {
-            this.timeStamp = timeStamp;
-            this.estado = estado;
-        }
-
-        @Override
-        public String toString() {
-            return String.format("EstadoPrograma{timeStamp=%s, estado=%d}", timeStamp, estado);
-        }
-    }
-
 	public static void saveDataToCSV(String filename) {
         try (FileWriter fileWriter = new FileWriter(filename)) {
-            // Exportando datos de Robots
-            fileWriter.write("Tabla Robots:\n");
-            fileWriter.write("ID,TipoRobot,Encendido\n");
+            fileWriter.write("ID,TipoRobot,AvenidaActual,CalleActual,Encendido\n");
             robots.forEach((id, data) -> {
                 try {
-                    fileWriter.write(id + "," + data.tipoRobot + "," + data.encendido + "\n");
+                    fileWriter.write(id + "," + data.tipoRobot + "," + data.avenidaActual + "," + data.calleActual + "," + data.encendido + "\n");
                 } catch (IOException e) {
-                    System.out.println("Error writing to file: " + e.getMessage());
+					System.out.println("Error al escribir en el archivo: " + e.getMessage());
                 }
             });
-
-            // Exportando datos de LogEventos
-            fileWriter.write("\nTabla LogEventos:\n");
-            fileWriter.write("TimeStamp,IDRobot,Avenida,Calle,Sirenas\n");
-            logEventos.forEach((time, evento) -> {
-                try {
-                    fileWriter.write(time + "," + evento.idRobot + "," + evento.avenidaActual + "," + evento.calleActual + "," + evento.sirenas + "\n");
-                } catch (IOException e) {
-                    System.out.println("Error writing to file: " + e.getMessage());
-                }
-            });
-
-            // Exportando datos de EstadoPrograma
-            fileWriter.write("\nTabla EstadoPrograma:\n");
-            fileWriter.write("TimeStamp,Estado\n");
-            estadoProgramas.forEach((time, estado) -> {
-                try {
-                    fileWriter.write(time + "," + estado.estado + "\n");
-                } catch (IOException e) {
-                    System.out.println("Error writing to file: " + e.getMessage());
-                }
-            });
-
         } catch (IOException e) {
-            System.out.println("Error opening file: " + e.getMessage());
+			System.out.println("Error al abrir el archivo: " + e.getMessage());
         }
     }
-	public static void printAllData() {
-        System.out.println("Tabla Robots:");
-        robots.forEach((id, data) -> System.out.println("ID: " + id + " - " + data));
-
-        System.out.println("\nTabla LogEventos:");
-        logEventos.forEach((time, evento) -> System.out.println("TimeStamp: " + time + " - " + evento));
-
-        System.out.println("\nTabla EstadoPrograma:");
-        estadoProgramas.forEach((time, estado) -> System.out.println("TimeStamp: " + time + " - " + estado));
-    }
 }
-
 
 
 	public Minero(int street, int avenue, Direction direction, int beeps, Color color, int tipo, int id)
@@ -228,12 +147,11 @@ class Database {
 		avenidaActual	= avenue;
 		calleActual		= street;
 		tipoRobot		= tipo;
-		sirenas	        = beeps;
 		this.id			= id;
 // Register the current position and locks it indicating that is occupied.
 		String posicion	= Integer.toString(calleActual) + " - " + Integer.toString(avenidaActual);
 		this.id = nextRobotId++; // Asigna el ID y luego incrementa el contador global, esto tambien ayudara a verlo en consola
-		Database.updateRobotData(this.id, this.tipoRobot, true);  // Asegurar que se registre inicialmente
+		Database.updateRobotData(this.id, this.tipoRobot, this.avenidaActual, this.calleActual, true);  // Asegurar que se registre inicialmente
 		objPosiciones.ocuparPosicion(posicion);
 // Add robot thread to the World.
 		World.setupThread(this);
@@ -242,11 +160,11 @@ class Database {
 // Runnable method that starts the thread
 	public void run()
 	{
-		ejecutarMina(); //asegurar que refleje los cambios después de la ejecución
+		ejecutarMina();
+		Database.printAllData();  //asegurar que refleje los cambios después de la ejecución
 		System.out.println("Guardando datos en CSV...");
 		Database.saveDataToCSV("prueba.csv");
 		System.out.println("Datos guardados en CSV.");
-		Database.printAllData();
 	}
 
 // Determine move direction on the Street
@@ -291,7 +209,8 @@ class Database {
 			sem_move.acquire();
 			ejecutarLog = (debugHabilitado) ? logMensaje("Me muevo") : false;
 			move();
-			Database.logEvento(this.id, nuevaAvenida, nuevaCalle, this.sirenas);
+			Database.updateRobotData(this.id, this.tipoRobot, nuevaAvenida, nuevaCalle, true);
+			
 			posicion		= Integer.toString(calleActual) + " - " + Integer.toString(avenidaActual);
 // Release previous position where it was and update robot atrributes
 			ejecutarLog = (debugHabilitado) ? logMensaje("Libero posición anterior") : false;
@@ -622,7 +541,6 @@ class Database {
 		{
 			pickBeeper();
 			beepers++;
-			beeps++;
 		}
 // If vein is empty and already put all beepers on the Warehouse, release and allows all miners and trains to go home
 		if(minaVacia && beepers == 0)
@@ -649,7 +567,6 @@ class Database {
 		{
 			pickBeeper();
 			beepers++;
-			beeps++;
 			beepersExtraidos--;
 		}
 // Go to the delivery point
@@ -666,7 +583,6 @@ class Database {
 		ejecutarLog = (debugHabilitado) ? logMensaje("Dejando beepers") : false;
 		for(int i = beepers; i > 0; i--)
 			putBeeper();
-			beeps--;
 // ... and goes back to the vein delivery point
 		turnLeft();
 		ejecutarLog = (debugHabilitado) ? logMensaje("Regreso al punto de espera de la veta") : false;
@@ -831,7 +747,6 @@ class Database {
 			{
 				pickBeeper();
 				i++;
-				beeps++;
 			}
 			else
 			{
@@ -982,7 +897,7 @@ class Database {
 // Creates the number of robots defined and adds to the ArrayList and to the Threads
 		for(int i = AVENIDA_INICIAL; i < (AVENIDA_INICIAL + cantidad); i++)
 		{
-			robot = new Minero(calle, i, North, beeps, colorRobot, tipoRobot, i - AVENIDA_INICIAL);
+			robot = new Minero(calle, i, North, 0, colorRobot, tipoRobot, i - AVENIDA_INICIAL);
 			Minero.objRobots.add(robot);
 			Minero.objThreads.add(new Thread(robot));
 		}
@@ -1103,7 +1018,6 @@ class Database {
 		for(int i = 0; i < objThreads.size(); i++){
 			objThreads.get(i).start();
 		}
-			Database.updateEstadoPrograma(1);
 			Database.printAllData();
 	}
 }
