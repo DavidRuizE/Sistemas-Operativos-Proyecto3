@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.concurrent.Semaphore;
 import java.util.Hashtable;
 import java.util.concurrent.ConcurrentHashMap;
+import java.io.FileWriter;
+import java.io.IOException;
 
 //public class Minero extends Robot implements Directions
 public class Minero extends AugmentedRobot implements Directions
@@ -119,6 +121,20 @@ class Database {
 				'}';
         }
     }
+	public static void saveDataToCSV(String filename) {
+        try (FileWriter fileWriter = new FileWriter(filename)) {
+            fileWriter.write("ID,TipoRobot,AvenidaActual,CalleActual,Encendido\n");
+            robots.forEach((id, data) -> {
+                try {
+                    fileWriter.write(id + "," + data.tipoRobot + "," + data.avenidaActual + "," + data.calleActual + "," + data.encendido + "\n");
+                } catch (IOException e) {
+					System.out.println("Error al escribir en el archivo: " + e.getMessage());
+                }
+            });
+        } catch (IOException e) {
+			System.out.println("Error al abrir el archivo: " + e.getMessage());
+        }
+    }
 }
 
 
@@ -146,6 +162,9 @@ class Database {
 	{
 		ejecutarMina();
 		Database.printAllData();  //asegurar que refleje los cambios después de la ejecución
+		System.out.println("Guardando datos en CSV...");
+		Database.saveDataToCSV("prueba.csv");
+		System.out.println("Datos guardados en CSV.");
 	}
 
 // Determine move direction on the Street
