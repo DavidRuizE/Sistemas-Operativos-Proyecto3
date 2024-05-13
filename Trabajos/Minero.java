@@ -102,9 +102,9 @@ public class Minero extends AugmentedRobot implements Directions {
 			return robots.get(id);
 		}
 
-		public static void logEvento(int idRobot, int avenidaActual, int calleActual, int sirenas) {
+		public static void logEvento(int idRobot, int avenidaActual, int calleActual, int sirenas, String descripcion) {
 			LocalDateTime now = LocalDateTime.now();
-			LogEvento evento = new LogEvento(now, idRobot, avenidaActual, calleActual, sirenas);
+			LogEvento evento = new LogEvento(now, idRobot, avenidaActual, calleActual, sirenas, descripcion);
 			logEventos.put(now, evento);
 			System.out.println("Event Logged - " + evento);
 		}
@@ -140,20 +140,22 @@ public class Minero extends AugmentedRobot implements Directions {
 			int avenidaActual;
 			int calleActual;
 			int sirenas;
+			String descripcion;
 
-			public LogEvento(LocalDateTime timeStamp, int idRobot, int avenidaActual, int calleActual, int sirenas) {
+			public LogEvento(LocalDateTime timeStamp, int idRobot, int avenidaActual, int calleActual, int sirenas, String descripcion) {
 				this.timeStamp = timeStamp;
 				this.idRobot = idRobot;
 				this.avenidaActual = avenidaActual;
 				this.calleActual = calleActual;
 				this.sirenas = sirenas;
+				this.descripcion = descripcion;
 			}
 
 			@Override
 			public String toString() {
 				return String.format(
-						"LogEvento{timeStamp=%s, idRobot=%d, avenidaActual=%d, calleActual=%d, sirenas=%d}", timeStamp,
-						idRobot, avenidaActual, calleActual, sirenas);
+						"LogEvento{timeStamp=%s, idRobot=%d, avenidaActual=%d, calleActual=%d, sirenas=%d, descripcion=%s}", timeStamp,
+						idRobot, avenidaActual, calleActual, sirenas,descripcion);
 			}
 		}
 
@@ -195,7 +197,7 @@ public class Minero extends AugmentedRobot implements Directions {
 
 		private static void saveLogEventsData(String filename) {
 			try (FileWriter fileWriter = new FileWriter(filename)) {
-				fileWriter.write("TimeStamp;IDRobot;Avenida;Calle;Sirenas\n"); // Asumiendo que has cambiado a punto y coma como delimitador
+				fileWriter.write("TimeStamp;IDRobot;Avenida;Calle;Sirenas;Descripcion\n"); // Asumiendo que has cambiado a punto y coma como delimitador
 				// Crear una lista de las entradas del mapa y ordenarlas por la clave Timestamp
 				List<Map.Entry<LocalDateTime, LogEvento>> sortedEntries = new ArrayList<>(logEventos.entrySet());
 				sortedEntries.sort(Map.Entry.comparingByKey());
@@ -203,7 +205,7 @@ public class Minero extends AugmentedRobot implements Directions {
 				// Escribir las entradas ordenadas en el archivo CSV
 				for (Map.Entry<LocalDateTime, LogEvento> entry : sortedEntries) {
 					LogEvento evento = entry.getValue();
-					fileWriter.write(entry.getKey() + ";" + evento.idRobot + ";" + evento.avenidaActual + ";" + evento.calleActual + ";" + evento.sirenas + "\n");
+					fileWriter.write(entry.getKey() + ";" + evento.idRobot + ";" + evento.avenidaActual + ";" + evento.calleActual + ";" + evento.sirenas + ";" + evento.descripcion + "\n");
 				}
 			} catch (IOException e) {
 				System.out.println("Error opening file: " + e.getMessage());
@@ -325,7 +327,7 @@ public class Minero extends AugmentedRobot implements Directions {
 		int nuevaAvenida = determineNuevaAvenida();
 		ejecutarLog = (debugHabilitado) ? logMensaje("Me muevo en la mina") : false;
 		move();
-		Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+		Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas, "Pasa por un semaforo");
 		calleActual = nuevaCalle;
 		avenidaActual = nuevaAvenida;
 	}
@@ -356,7 +358,7 @@ public class Minero extends AugmentedRobot implements Directions {
 					try {
 						ejecutarLog = (debugHabilitado) ? logMensaje("En punto de espera por beepers") : false;
 						sem_extraccion.acquire();
-						Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+						Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas,"Pasa por un semaforo");
 					} catch (InterruptedException exc) {
 						System.out.println(exc);
 					}
@@ -384,7 +386,7 @@ public class Minero extends AugmentedRobot implements Directions {
 			try {
 				ejecutarLog = (debugHabilitado) ? logMensaje("Esperando por la salida de todos los mineros") : false;
 				sem_trenes.acquire();
-				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas, "Pasa por un semaforo");
 			} catch (InterruptedException exc) {
 				System.out.println(exc);
 			}
@@ -393,7 +395,7 @@ public class Minero extends AugmentedRobot implements Directions {
 			try {
 				ejecutarLog = (debugHabilitado) ? logMensaje("Esperando por la salida de los mineros y trenes") : false;
 				sem_extractor.acquire();
-				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas,"Pasa por un semaforo");
 			} catch (InterruptedException exc) {
 				System.out.println(exc);
 			}
@@ -411,7 +413,7 @@ public class Minero extends AugmentedRobot implements Directions {
 					ejecutarLog = (debugHabilitado) ? logMensaje("Solo el último minero puede activar los trenes")
 							: false;
 					sem_salida.acquire();
-					Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+					Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas, "Pasa por un semaforo");
 				} catch (InterruptedException exc) {
 					System.out.println(exc);
 				}
@@ -429,7 +431,7 @@ public class Minero extends AugmentedRobot implements Directions {
 					ejecutarLog = (debugHabilitado) ? logMensaje("Solo el último tren puede activar los extractores")
 							: false;
 					sem_salida.acquire();
-					Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+					Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas,"Pasa por un semaforo");
 				} catch (InterruptedException exc) {
 					System.out.println(exc);
 				}
@@ -445,7 +447,7 @@ public class Minero extends AugmentedRobot implements Directions {
 			try {
 				ejecutarLog = (debugHabilitado) ? logMensaje("Espero si puedo entrar a la mina") : false;
 				sem_extIngreso.acquire();
-				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas,"Pasa por un semaforo");
 			} catch (InterruptedException exc) {
 				System.out.println(exc);
 			}
@@ -493,12 +495,12 @@ public class Minero extends AugmentedRobot implements Directions {
 						? logMensaje("Espero que hayan " + BEEPERS_TREN + " beepers para recogerlos.")
 						: false;
 				sem_trenInicioProceso.acquire();
-				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas,"Pasa por un semaforo");
 			} catch (InterruptedException exc) {
 				System.out.println(exc);
 			}
 		}
-		Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+		Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas,"Pasa por un semaforo");
 		mover();
 	}
 
@@ -625,6 +627,7 @@ public class Minero extends AugmentedRobot implements Directions {
 			pickBeeper();
 			beepers++;
 			sirenas++;
+			Database.logEvento(this.id, avenidaActual, calleActual, sirenas, "Extractor recoge un beeper");
 		}
 // If vein is empty and already put all beepers on the Warehouse, release and allows all miners and trains to go home
 		if(minaVacia && beepers == 0)
@@ -653,6 +656,7 @@ public class Minero extends AugmentedRobot implements Directions {
 			beepers++;
 			beepersExtraidos--;
 			sirenas++;
+			Database.logEvento(this.id, avenidaActual, calleActual, sirenas, "Tren recoge un beeper en el punto de entrega");
 		}
 	// Go to the delivery point
 		turnRight();
@@ -699,7 +703,7 @@ public class Minero extends AugmentedRobot implements Directions {
 						: false;
 				try {
 					sem_trenSalida.acquire();
-					Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+					Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas,"Esperando a que los extractores terminen");
 				} catch (InterruptedException exc) {
 					System.out.println(exc);
 				}
@@ -757,7 +761,7 @@ public class Minero extends AugmentedRobot implements Directions {
 				ejecutarLog = (debugHabilitado) ? logMensaje("Si. Me bloqueo hasta que terminen de extraer") : false;
 				try {
 					sem_mineros.acquire();
-					Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+					Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas,"Pasa por un semaforo");
 				} catch (InterruptedException exc) {
 					System.out.println(exc);
 				}
@@ -808,7 +812,7 @@ public class Minero extends AugmentedRobot implements Directions {
 			turnLeft();
 			try {
 				sem_mineros.acquire();
-				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas);
+				Database.logEvento(this.id, nuevaAvenida, nuevaCalle, sirenas,"Pasa por un semaforo");
 			} catch (InterruptedException exc) {
 				System.out.println(exc);
 			}
@@ -830,6 +834,7 @@ public class Minero extends AugmentedRobot implements Directions {
 				pickBeeper();
 				i++;
 				sirenas++;
+				Database.logEvento(this.id, avenidaActual, calleActual, sirenas, "Recoge un beeper en la veta");
 			}
 			else
 			{
