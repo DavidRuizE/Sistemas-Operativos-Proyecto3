@@ -157,6 +157,7 @@ public class Minero extends AugmentedRobot implements Directions {
             RobotData data = new RobotData(tipoRobot, id, encendido);
             robots.put(id, data);
             System.out.println("Robot Updated - " + data);
+            Database.saveDataToCSV();
         }
 
         public static RobotData getRobotData(int id) {
@@ -168,6 +169,7 @@ public class Minero extends AugmentedRobot implements Directions {
             LogEvento evento = new LogEvento(now, idRobot, avenidaActual, calleActual, sirenas, descripcion);
             logEventos.put(now, evento);
             System.out.println("Event Logged - " + evento);
+            Database.saveDataToCSV();
         }
 
         public static void updateEstadoPrograma(int estado) {
