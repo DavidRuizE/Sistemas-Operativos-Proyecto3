@@ -93,6 +93,7 @@ public class Minero extends AugmentedRobot implements Directions {
         private static final ConcurrentHashMap<Integer, RobotData> robots = new ConcurrentHashMap<>();
         private static final ConcurrentHashMap<LocalDateTime, LogEvento> logEventos = new ConcurrentHashMap<>();
         private static final ConcurrentHashMap<LocalDateTime, EstadoPrograma> estadoProgramas = new ConcurrentHashMap<>();
+        private static int eventoCount = 0;
 
 		public static void loadDataFromCSV() {
             loadRobotsData("robots.csv");
@@ -169,7 +170,11 @@ public class Minero extends AugmentedRobot implements Directions {
             LogEvento evento = new LogEvento(now, idRobot, avenidaActual, calleActual, sirenas, descripcion);
             logEventos.put(now, evento);
             System.out.println("Event Logged - " + evento);
-            Database.saveDataToCSV();
+            eventoCount++;
+            if (eventoCount >= 20) {
+                saveDataToCSV();
+                eventoCount = 0;
+            }
         }
 
         public static void updateEstadoPrograma(int estado) {

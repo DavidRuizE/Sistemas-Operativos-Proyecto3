@@ -1,0 +1,624 @@
+TimeStamp;IDRobot;Avenida;Calle;Sirenas;Descripcion
+2024-05-27T21:28:43.729660900;3;9;15;0;Pasa por un semaforo
+2024-05-27T21:28:47.548498200;5;9;17;0;Pasa por un semaforo
+2024-05-27T21:28:56.824755200;4;8;17;0;Pasa por un semaforo
+2024-05-27T21:29:03.554992300;0;14;11;1;Recoge un beeper en la veta
+2024-05-27T21:29:03.767774300;0;14;11;2;Recoge un beeper en la veta
+2024-05-27T21:29:03.987023400;0;14;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:04.202760600;0;14;11;4;Recoge un beeper en la veta
+2024-05-27T21:29:04.421974900;0;14;11;5;Recoge un beeper en la veta
+2024-05-27T21:29:04.640325700;0;14;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:04.857693800;0;14;11;7;Recoge un beeper en la veta
+2024-05-27T21:29:05.077667100;0;14;11;8;Recoge un beeper en la veta
+2024-05-27T21:29:05.295346100;0;14;11;9;Recoge un beeper en la veta
+2024-05-27T21:29:05.512357100;0;14;11;10;Recoge un beeper en la veta
+2024-05-27T21:29:05.730120100;0;14;11;11;Recoge un beeper en la veta
+2024-05-27T21:29:05.948510700;0;14;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:06.165759400;0;14;11;13;Recoge un beeper en la veta
+2024-05-27T21:29:06.383297;0;14;11;14;Recoge un beeper en la veta
+2024-05-27T21:29:06.600038600;0;14;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:06.816928400;0;14;11;16;Recoge un beeper en la veta
+2024-05-27T21:29:07.034163900;0;14;11;17;Recoge un beeper en la veta
+2024-05-27T21:29:07.254063400;0;14;11;18;Recoge un beeper en la veta
+2024-05-27T21:29:07.472153700;0;14;11;19;Recoge un beeper en la veta
+2024-05-27T21:29:07.690708100;0;14;11;20;Recoge un beeper en la veta
+2024-05-27T21:29:07.909366700;0;14;11;21;Recoge un beeper en la veta
+2024-05-27T21:29:08.126162300;0;14;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:08.342846400;0;14;11;23;Recoge un beeper en la veta
+2024-05-27T21:29:08.564106;0;14;11;24;Recoge un beeper en la veta
+2024-05-27T21:29:08.778971900;0;14;11;25;Recoge un beeper en la veta
+2024-05-27T21:29:08.998977400;0;14;11;26;Recoge un beeper en la veta
+2024-05-27T21:29:09.216500200;0;14;11;27;Recoge un beeper en la veta
+2024-05-27T21:29:09.433191300;0;14;11;28;Recoge un beeper en la veta
+2024-05-27T21:29:09.650917;0;14;11;29;Recoge un beeper en la veta
+2024-05-27T21:29:09.868076300;0;14;11;30;Recoge un beeper en la veta
+2024-05-27T21:29:10.087763300;0;14;11;31;Recoge un beeper en la veta
+2024-05-27T21:29:10.303394400;0;14;11;32;Recoge un beeper en la veta
+2024-05-27T21:29:10.520574400;0;14;11;33;Recoge un beeper en la veta
+2024-05-27T21:29:10.737871600;0;14;11;34;Recoge un beeper en la veta
+2024-05-27T21:29:10.954836900;0;14;11;35;Recoge un beeper en la veta
+2024-05-27T21:29:11.171485100;0;14;11;36;Recoge un beeper en la veta
+2024-05-27T21:29:11.389839800;0;14;11;37;Recoge un beeper en la veta
+2024-05-27T21:29:11.609654600;0;14;11;38;Recoge un beeper en la veta
+2024-05-27T21:29:11.827710600;0;14;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:12.045423300;0;14;11;40;Recoge un beeper en la veta
+2024-05-27T21:29:12.264883900;0;14;11;41;Recoge un beeper en la veta
+2024-05-27T21:29:12.483846200;0;14;11;42;Recoge un beeper en la veta
+2024-05-27T21:29:12.700690300;0;14;11;43;Recoge un beeper en la veta
+2024-05-27T21:29:12.916444;0;14;11;44;Recoge un beeper en la veta
+2024-05-27T21:29:13.133722900;0;14;11;45;Recoge un beeper en la veta
+2024-05-27T21:29:13.353546500;0;14;11;46;Recoge un beeper en la veta
+2024-05-27T21:29:13.570444200;0;14;11;47;Recoge un beeper en la veta
+2024-05-27T21:29:13.791039400;0;14;11;48;Recoge un beeper en la veta
+2024-05-27T21:29:14.006987500;0;14;11;49;Recoge un beeper en la veta
+2024-05-27T21:29:14.223654700;0;14;11;50;Recoge un beeper en la veta
+2024-05-27T21:29:15.418866200;1;14;11;1;Recoge un beeper en la veta
+2024-05-27T21:29:15.638123300;1;14;11;2;Recoge un beeper en la veta
+2024-05-27T21:29:15.858069;1;14;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:16.074978200;1;14;11;4;Recoge un beeper en la veta
+2024-05-27T21:29:16.293367;1;14;11;5;Recoge un beeper en la veta
+2024-05-27T21:29:16.510657300;1;14;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:16.729000900;1;14;11;7;Recoge un beeper en la veta
+2024-05-27T21:29:16.947708200;1;14;11;8;Recoge un beeper en la veta
+2024-05-27T21:29:17.163753300;1;14;11;9;Recoge un beeper en la veta
+2024-05-27T21:29:17.380086;1;14;11;10;Recoge un beeper en la veta
+2024-05-27T21:29:17.599034100;1;14;11;11;Recoge un beeper en la veta
+2024-05-27T21:29:17.815084100;1;14;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:18.032187800;1;14;11;13;Recoge un beeper en la veta
+2024-05-27T21:29:18.250151200;1;14;11;14;Recoge un beeper en la veta
+2024-05-27T21:29:18.467869900;1;14;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:18.684091;1;14;11;16;Recoge un beeper en la veta
+2024-05-27T21:29:18.900992900;1;14;11;17;Recoge un beeper en la veta
+2024-05-27T21:29:19.118137400;1;14;11;18;Recoge un beeper en la veta
+2024-05-27T21:29:19.332650700;1;14;11;19;Recoge un beeper en la veta
+2024-05-27T21:29:19.548954;1;14;11;20;Recoge un beeper en la veta
+2024-05-27T21:29:19.767054200;1;14;11;21;Recoge un beeper en la veta
+2024-05-27T21:29:19.988183800;1;14;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:20.203672900;1;14;11;23;Recoge un beeper en la veta
+2024-05-27T21:29:20.420540400;1;14;11;24;Recoge un beeper en la veta
+2024-05-27T21:29:20.637892500;1;14;11;25;Recoge un beeper en la veta
+2024-05-27T21:29:20.856024700;1;14;11;26;Recoge un beeper en la veta
+2024-05-27T21:29:21.076572500;1;14;11;27;Recoge un beeper en la veta
+2024-05-27T21:29:21.292846700;1;14;11;28;Recoge un beeper en la veta
+2024-05-27T21:29:21.510136800;1;14;11;29;Recoge un beeper en la veta
+2024-05-27T21:29:21.728057200;1;14;11;30;Recoge un beeper en la veta
+2024-05-27T21:29:21.946964900;1;14;11;31;Recoge un beeper en la veta
+2024-05-27T21:29:22.164049100;1;14;11;32;Recoge un beeper en la veta
+2024-05-27T21:29:22.383672300;1;14;11;33;Recoge un beeper en la veta
+2024-05-27T21:29:22.601537800;1;14;11;34;Recoge un beeper en la veta
+2024-05-27T21:29:22.818107600;1;14;11;35;Recoge un beeper en la veta
+2024-05-27T21:29:23.038046800;1;14;11;36;Recoge un beeper en la veta
+2024-05-27T21:29:23.258036600;1;14;11;37;Recoge un beeper en la veta
+2024-05-27T21:29:23.477091900;1;14;11;38;Recoge un beeper en la veta
+2024-05-27T21:29:23.693292900;1;14;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:23.910160500;1;14;11;40;Recoge un beeper en la veta
+2024-05-27T21:29:24.125225;1;14;11;41;Recoge un beeper en la veta
+2024-05-27T21:29:24.343996900;1;14;11;42;Recoge un beeper en la veta
+2024-05-27T21:29:24.560145200;1;14;11;43;Recoge un beeper en la veta
+2024-05-27T21:29:24.776196;1;14;11;44;Recoge un beeper en la veta
+2024-05-27T21:29:24.993933700;1;14;11;45;Recoge un beeper en la veta
+2024-05-27T21:29:25.212048900;1;14;11;46;Recoge un beeper en la veta
+2024-05-27T21:29:25.431359200;1;14;11;47;Recoge un beeper en la veta
+2024-05-27T21:29:25.650706100;1;14;11;48;Recoge un beeper en la veta
+2024-05-27T21:29:25.867731500;1;14;11;49;Recoge un beeper en la veta
+2024-05-27T21:29:26.084351800;1;14;11;50;Recoge un beeper en la veta
+2024-05-27T21:29:27.271564500;0;14;11;1;Recoge un beeper en la veta
+2024-05-27T21:29:27.494281900;0;14;11;2;Recoge un beeper en la veta
+2024-05-27T21:29:27.711771700;0;14;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:27.928716700;0;14;11;4;Recoge un beeper en la veta
+2024-05-27T21:29:28.146033500;0;14;11;5;Recoge un beeper en la veta
+2024-05-27T21:29:28.365516900;0;14;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:28.583152500;0;14;11;7;Recoge un beeper en la veta
+2024-05-27T21:29:28.801137300;0;14;11;8;Recoge un beeper en la veta
+2024-05-27T21:29:29.018030100;0;14;11;9;Recoge un beeper en la veta
+2024-05-27T21:29:29.236893700;0;14;11;10;Recoge un beeper en la veta
+2024-05-27T21:29:29.453058;0;14;11;11;Recoge un beeper en la veta
+2024-05-27T21:29:29.670876800;0;14;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:29.885051;0;14;11;13;Recoge un beeper en la veta
+2024-05-27T21:29:30.103706500;0;14;11;14;Recoge un beeper en la veta
+2024-05-27T21:29:30.323342300;0;14;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:30.538993400;0;14;11;16;Recoge un beeper en la veta
+2024-05-27T21:29:30.756856200;0;14;11;17;Recoge un beeper en la veta
+2024-05-27T21:29:30.974275400;0;14;11;18;Recoge un beeper en la veta
+2024-05-27T21:29:31.192990900;0;14;11;19;Recoge un beeper en la veta
+2024-05-27T21:29:31.410040300;0;14;11;20;Recoge un beeper en la veta
+2024-05-27T21:29:31.627896300;0;14;11;21;Recoge un beeper en la veta
+2024-05-27T21:29:31.846760;0;14;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:32.062588;0;14;11;23;Recoge un beeper en la veta
+2024-05-27T21:29:32.279888300;0;14;11;24;Recoge un beeper en la veta
+2024-05-27T21:29:32.496706200;0;14;11;25;Recoge un beeper en la veta
+2024-05-27T21:29:32.715181700;0;14;11;26;Recoge un beeper en la veta
+2024-05-27T21:29:32.932041800;0;14;11;27;Recoge un beeper en la veta
+2024-05-27T21:29:33.152102500;0;14;11;28;Recoge un beeper en la veta
+2024-05-27T21:29:33.371925300;0;14;11;29;Recoge un beeper en la veta
+2024-05-27T21:29:33.590172100;0;14;11;30;Recoge un beeper en la veta
+2024-05-27T21:29:33.809851700;0;14;11;31;Recoge un beeper en la veta
+2024-05-27T21:29:34.027213400;0;14;11;32;Recoge un beeper en la veta
+2024-05-27T21:29:34.244079800;0;14;11;33;Recoge un beeper en la veta
+2024-05-27T21:29:34.461784800;0;14;11;34;Recoge un beeper en la veta
+2024-05-27T21:29:34.678759;0;14;11;35;Recoge un beeper en la veta
+2024-05-27T21:29:34.899861;0;14;11;36;Recoge un beeper en la veta
+2024-05-27T21:29:35.119747700;0;14;11;37;Recoge un beeper en la veta
+2024-05-27T21:29:35.339609400;0;14;11;38;Recoge un beeper en la veta
+2024-05-27T21:29:35.557210600;0;14;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:35.774324100;0;14;11;40;Recoge un beeper en la veta
+2024-05-27T21:29:35.993131300;0;14;11;41;Recoge un beeper en la veta
+2024-05-27T21:29:36.211043400;0;14;11;42;Recoge un beeper en la veta
+2024-05-27T21:29:36.429187300;0;14;11;43;Recoge un beeper en la veta
+2024-05-27T21:29:36.646382700;0;14;11;44;Recoge un beeper en la veta
+2024-05-27T21:29:36.863051100;0;14;11;45;Recoge un beeper en la veta
+2024-05-27T21:29:37.080080700;0;14;11;46;Recoge un beeper en la veta
+2024-05-27T21:29:37.297156900;0;14;11;47;Recoge un beeper en la veta
+2024-05-27T21:29:37.516715300;0;14;11;48;Recoge un beeper en la veta
+2024-05-27T21:29:37.734172800;0;14;11;49;Recoge un beeper en la veta
+2024-05-27T21:29:37.952842100;0;14;11;50;Recoge un beeper en la veta
+2024-05-27T21:29:39.136113100;1;14;11;1;Recoge un beeper en la veta
+2024-05-27T21:29:39.353878300;1;14;11;2;Recoge un beeper en la veta
+2024-05-27T21:29:39.572102200;1;14;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:39.789434;1;14;11;4;Recoge un beeper en la veta
+2024-05-27T21:29:40.008032100;1;14;11;5;Recoge un beeper en la veta
+2024-05-27T21:29:40.225636800;1;14;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:40.444403600;1;14;11;7;Recoge un beeper en la veta
+2024-05-27T21:29:40.662893800;1;14;11;8;Recoge un beeper en la veta
+2024-05-27T21:29:40.881523400;1;14;11;9;Recoge un beeper en la veta
+2024-05-27T21:29:41.100707;1;14;11;10;Recoge un beeper en la veta
+2024-05-27T21:29:41.318187300;1;14;11;11;Recoge un beeper en la veta
+2024-05-27T21:29:41.536190100;1;14;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:41.752238400;1;14;11;13;Recoge un beeper en la veta
+2024-05-27T21:29:41.969117700;1;14;11;14;Recoge un beeper en la veta
+2024-05-27T21:29:42.188858900;1;14;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:42.404013900;1;14;11;16;Recoge un beeper en la veta
+2024-05-27T21:29:42.620019800;1;14;11;17;Recoge un beeper en la veta
+2024-05-27T21:29:42.840153500;1;14;11;18;Recoge un beeper en la veta
+2024-05-27T21:29:43.057854500;1;14;11;19;Recoge un beeper en la veta
+2024-05-27T21:29:43.277042400;1;14;11;20;Recoge un beeper en la veta
+2024-05-27T21:29:43.493040300;1;14;11;21;Recoge un beeper en la veta
+2024-05-27T21:29:43.711115;1;14;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:43.726626800;2;9;11;0;Pasa por un semaforo
+2024-05-27T21:29:43.728130;2;9;11;0;Pasa por un semaforo
+2024-05-27T21:29:43.929064700;1;14;11;23;Recoge un beeper en la veta
+2024-05-27T21:29:44.146842600;1;14;11;24;Recoge un beeper en la veta
+2024-05-27T21:29:44.365869800;1;14;11;25;Recoge un beeper en la veta
+2024-05-27T21:29:44.381416200;2;13;11;1;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:44.583132;1;14;11;26;Recoge un beeper en la veta
+2024-05-27T21:29:44.598644600;2;13;11;2;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:44.801944900;1;14;11;27;Recoge un beeper en la veta
+2024-05-27T21:29:44.817790600;2;13;11;3;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:45.019212500;1;14;11;28;Recoge un beeper en la veta
+2024-05-27T21:29:45.034226;2;13;11;4;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:45.238077600;1;14;11;29;Recoge un beeper en la veta
+2024-05-27T21:29:45.253190700;2;13;11;5;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:45.456126300;1;14;11;30;Recoge un beeper en la veta
+2024-05-27T21:29:45.471145200;2;13;11;6;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:45.674451100;1;14;11;31;Recoge un beeper en la veta
+2024-05-27T21:29:45.690186300;2;13;11;7;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:45.893920200;1;14;11;32;Recoge un beeper en la veta
+2024-05-27T21:29:45.909123700;2;13;11;8;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:46.111220600;1;14;11;33;Recoge un beeper en la veta
+2024-05-27T21:29:46.127229200;2;13;11;9;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:46.327871700;1;14;11;34;Recoge un beeper en la veta
+2024-05-27T21:29:46.342830200;2;13;11;10;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:46.545127600;1;14;11;35;Recoge un beeper en la veta
+2024-05-27T21:29:46.561250200;2;13;11;11;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:46.762869600;1;14;11;36;Recoge un beeper en la veta
+2024-05-27T21:29:46.778129;2;13;11;12;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:46.978943500;1;14;11;37;Recoge un beeper en la veta
+2024-05-27T21:29:46.994594900;2;13;11;13;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:47.199578900;1;14;11;38;Recoge un beeper en la veta
+2024-05-27T21:29:47.215587800;2;13;11;14;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:47.418209800;1;14;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:47.433639300;2;13;11;15;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:47.636425;1;14;11;40;Recoge un beeper en la veta
+2024-05-27T21:29:47.651958200;2;13;11;16;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:47.854177;1;14;11;41;Recoge un beeper en la veta
+2024-05-27T21:29:47.869708900;2;13;11;17;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:48.070784800;1;14;11;42;Recoge un beeper en la veta
+2024-05-27T21:29:48.085844200;2;13;11;18;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:48.286685900;1;14;11;43;Recoge un beeper en la veta
+2024-05-27T21:29:48.302208800;2;13;11;19;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:48.505419500;1;14;11;44;Recoge un beeper en la veta
+2024-05-27T21:29:48.521438900;2;13;11;20;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:48.725171500;1;14;11;45;Recoge un beeper en la veta
+2024-05-27T21:29:48.741171600;2;13;11;21;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:48.943969500;1;14;11;46;Recoge un beeper en la veta
+2024-05-27T21:29:48.960001500;2;13;11;22;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.148109900;2;13;11;31;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.150463300;2;13;11;35;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.151462300;2;13;11;47;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.152462200;2;13;11;51;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.153463900;2;13;11;52;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.154463100;2;13;11;61;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.155465;2;13;11;69;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.156090600;2;13;11;71;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.157094800;2;13;11;72;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.158099300;2;13;11;83;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.159143300;2;13;11;91;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.161142900;2;13;11;103;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.162143300;2;13;11;111;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.163143600;2;13;11;113;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.164143800;2;13;11;120;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.165143500;0;15;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:49.166143400;0;15;11;9;Recoge un beeper en la veta
+2024-05-27T21:29:49.167146100;4;2;1;0;Pasa por un semaforo
+2024-05-27T21:29:49.169205300;0;15;11;13;Recoge un beeper en la veta
+2024-05-27T21:29:49.170209900;0;15;11;18;Recoge un beeper en la veta
+2024-05-27T21:29:49.171209300;0;15;11;20;Recoge un beeper en la veta
+2024-05-27T21:29:49.172209600;0;15;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:49.173209;0;15;11;24;Recoge un beeper en la veta
+2024-05-27T21:29:49.174209800;0;15;11;29;Recoge un beeper en la veta
+2024-05-27T21:29:49.175211300;4;3;1;1;Extractor recoge un beeper
+2024-05-27T21:29:49.176210200;0;15;11;31;Recoge un beeper en la veta
+2024-05-27T21:29:49.177211;0;15;11;38;Recoge un beeper en la veta
+2024-05-27T21:29:49.178210200;0;15;11;42;Recoge un beeper en la veta
+2024-05-27T21:29:49.180249100;0;15;11;49;Recoge un beeper en la veta
+2024-05-27T21:29:49.181248800;4;3;1;20;Extractor recoge un beeper
+2024-05-27T21:29:49.181853700;1;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.183862100;4;3;1;28;Extractor recoge un beeper
+2024-05-27T21:29:49.184863;4;3;1;32;Extractor recoge un beeper
+2024-05-27T21:29:49.185862900;1;15;11;8;Recoge un beeper en la veta
+2024-05-27T21:29:49.187861900;4;3;1;34;Extractor recoge un beeper
+2024-05-27T21:29:49.188365400;4;3;1;39;Extractor recoge un beeper
+2024-05-27T21:29:49.189369500;3;13;11;11;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.191373400;1;15;11;19;Recoge un beeper en la veta
+2024-05-27T21:29:49.192372400;4;3;1;48;Extractor recoge un beeper
+2024-05-27T21:29:49.194373100;4;3;1;49;Extractor recoge un beeper
+2024-05-27T21:29:49.195373500;1;15;11;28;Recoge un beeper en la veta
+2024-05-27T21:29:49.196373800;3;13;11;30;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.197878400;5;9;17;0;Pasa por un semaforo
+2024-05-27T21:29:49.198883600;3;13;11;32;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.199884400;1;15;11;35;Recoge un beeper en la veta
+2024-05-27T21:29:49.200884400;1;15;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:49.201884;3;13;11;42;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.202884600;5;3;1;1;Extractor recoge un beeper
+2024-05-27T21:29:49.203883900;3;13;11;44;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.204884300;3;13;11;48;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.205885200;3;13;11;52;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.206885100;1;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.208392700;5;3;1;9;Extractor recoge un beeper
+2024-05-27T21:29:49.209401100;5;3;1;15;Extractor recoge un beeper
+2024-05-27T21:29:49.210406800;3;13;11;63;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.212096300;3;13;11;64;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.213102500;5;3;1;26;Extractor recoge un beeper
+2024-05-27T21:29:49.214101800;5;3;1;29;Extractor recoge un beeper
+2024-05-27T21:29:49.216102800;3;13;11;79;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.217102400;5;3;1;39;Extractor recoge un beeper
+2024-05-27T21:29:49.219184700;5;3;1;41;Extractor recoge un beeper
+2024-05-27T21:29:49.220360700;3;13;11;93;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.221363100;3;13;11;95;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.223363800;3;13;11;101;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.224361;3;13;11;108;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.225360600;3;13;11;114;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.226360200;3;13;11;115;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.227922400;4;3;1;3;Extractor recoge un beeper
+2024-05-27T21:29:49.228870200;4;3;1;5;Extractor recoge un beeper
+2024-05-27T21:29:49.229869300;4;3;1;9;Extractor recoge un beeper
+2024-05-27T21:29:49.230869700;4;3;1;14;Extractor recoge un beeper
+2024-05-27T21:29:49.232374100;0;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.233379100;0;15;11;2;Recoge un beeper en la veta
+2024-05-27T21:29:49.234385700;0;15;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:49.235379600;0;15;11;10;Recoge un beeper en la veta
+2024-05-27T21:29:49.236380;0;15;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:49.239402;0;15;11;19;Recoge un beeper en la veta
+2024-05-27T21:29:49.240405700;0;15;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:49.241405800;0;15;11;24;Recoge un beeper en la veta
+2024-05-27T21:29:49.242405200;0;15;11;29;Recoge un beeper en la veta
+2024-05-27T21:29:49.243406400;0;15;11;33;Recoge un beeper en la veta
+2024-05-27T21:29:49.244406500;0;15;11;34;Recoge un beeper en la veta
+2024-05-27T21:29:49.245406300;5;3;1;1;Extractor recoge un beeper
+2024-05-27T21:29:49.246406800;0;15;11;36;Recoge un beeper en la veta
+2024-05-27T21:29:49.247912;0;15;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:49.248413200;5;3;1;12;Extractor recoge un beeper
+2024-05-27T21:29:49.250423900;5;3;1;14;Extractor recoge un beeper
+2024-05-27T21:29:49.251423400;0;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.252426;1;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.253424300;5;3;1;26;Extractor recoge un beeper
+2024-05-27T21:29:49.255425100;1;15;11;4;Recoge un beeper en la veta
+2024-05-27T21:29:49.256144500;5;3;1;37;Extractor recoge un beeper
+2024-05-27T21:29:49.258154900;5;3;1;38;Extractor recoge un beeper
+2024-05-27T21:29:49.259189600;5;3;1;44;Extractor recoge un beeper
+2024-05-27T21:29:49.260192800;1;15;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:49.262033600;1;15;11;25;Recoge un beeper en la veta
+2024-05-27T21:29:49.263038800;1;15;11;30;Recoge un beeper en la veta
+2024-05-27T21:29:49.264039400;1;15;11;37;Recoge un beeper en la veta
+2024-05-27T21:29:49.265039700;1;15;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:49.266039100;1;15;11;40;Recoge un beeper en la veta
+2024-05-27T21:29:49.267039300;1;15;11;44;Recoge un beeper en la veta
+2024-05-27T21:29:49.268037500;4;3;1;7;Extractor recoge un beeper
+2024-05-27T21:29:49.269060500;1;15;11;50;Recoge un beeper en la veta
+2024-05-27T21:29:49.271489300;4;3;1;14;Extractor recoge un beeper
+2024-05-27T21:29:49.272492200;0;16;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.273496900;4;3;1;18;Extractor recoge un beeper
+2024-05-27T21:29:49.273750200;2;9;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.274496800;0;16;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:49.275000800;2;13;11;1;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.276509400;4;3;1;23;Extractor recoge un beeper
+2024-05-27T21:29:49.278015500;2;13;11;7;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.279021700;0;16;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:49.281021400;4;3;1;30;Extractor recoge un beeper
+2024-05-27T21:29:49.282021900;4;3;1;35;Extractor recoge un beeper
+2024-05-27T21:29:49.283021300;4;3;1;36;Extractor recoge un beeper
+2024-05-27T21:29:49.285021500;4;3;1;39;Extractor recoge un beeper
+2024-05-27T21:29:49.286022300;2;13;11;24;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.288021400;0;16;11;28;Recoge un beeper en la veta
+2024-05-27T21:29:49.289089400;0;16;11;32;Recoge un beeper en la veta
+2024-05-27T21:29:49.290089100;2;13;11;32;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.292011300;2;13;11;34;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.293016400;0;16;11;40;Recoge un beeper en la veta
+2024-05-27T21:29:49.294021400;0;16;11;44;Recoge un beeper en la veta
+2024-05-27T21:29:49.296023400;2;13;11;44;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.297022;2;13;11;47;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.298022200;5;3;1;2;Extractor recoge un beeper
+2024-05-27T21:29:49.298525700;5;3;1;6;Extractor recoge un beeper
+2024-05-27T21:29:49.300650600;5;3;1;9;Extractor recoge un beeper
+2024-05-27T21:29:49.301650100;5;3;1;13;Extractor recoge un beeper
+2024-05-27T21:29:49.302501400;5;3;1;18;Extractor recoge un beeper
+2024-05-27T21:29:49.304514500;2;13;11;61;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.305514400;2;13;11;64;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.306514300;2;13;11;69;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.308177;2;13;11;70;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.309024100;2;13;11;74;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.310025300;2;13;11;77;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.311029600;2;13;11;79;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.313030700;2;13;11;82;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.314029500;2;13;11;87;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.315029800;2;13;11;91;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.316030300;2;13;11;99;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.318029200;2;13;11;110;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.319222800;2;13;11;119;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.320229300;2;13;11;120;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.323651;1;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.324279100;1;16;11;2;Recoge un beeper en la veta
+2024-05-27T21:29:49.324782400;1;16;11;4;Recoge un beeper en la veta
+2024-05-27T21:29:49.325285;1;16;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:49.326289400;1;16;11;9;Recoge un beeper en la veta
+2024-05-27T21:29:49.327793700;1;16;11;11;Recoge un beeper en la veta
+2024-05-27T21:29:49.328799300;1;16;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:49.329799300;1;16;11;17;Recoge un beeper en la veta
+2024-05-27T21:29:49.330798700;1;16;11;20;Recoge un beeper en la veta
+2024-05-27T21:29:49.332303;1;16;11;37;Recoge un beeper en la veta
+2024-05-27T21:29:49.334308700;1;16;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:49.335309100;1;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.336310400;0;16;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:49.337813900;3;9;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.339494400;0;16;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:49.340499800;0;16;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:49.341504900;0;16;11;25;Recoge un beeper en la veta
+2024-05-27T21:29:49.343504300;0;16;11;29;Recoge un beeper en la veta
+2024-05-27T21:29:49.344207700;0;16;11;36;Recoge un beeper en la veta
+2024-05-27T21:29:49.346221200;0;16;11;37;Recoge un beeper en la veta
+2024-05-27T21:29:49.347219600;0;16;11;44;Recoge un beeper en la veta
+2024-05-27T21:29:49.348219300;3;13;11;29;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.350336400;0;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.351336700;3;13;11;43;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.353335200;3;13;11;51;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.354335200;3;13;11;63;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.356054100;3;13;11;70;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.357057700;3;13;11;83;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.358063200;3;13;11;84;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.359114400;3;13;11;99;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.360118300;3;13;11;103;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.361119;3;13;11;115;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.362120700;3;13;11;120;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.363118900;1;16;11;1;Recoge un beeper en la veta
+2024-05-27T21:29:49.365118700;1;16;11;2;Recoge un beeper en la veta
+2024-05-27T21:29:49.366119300;1;16;11;7;Recoge un beeper en la veta
+2024-05-27T21:29:49.367119200;1;16;11;10;Recoge un beeper en la veta
+2024-05-27T21:29:49.368156200;1;16;11;11;Recoge un beeper en la veta
+2024-05-27T21:29:49.368261400;1;16;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:49.368653300;1;16;11;14;Recoge un beeper en la veta
+2024-05-27T21:29:49.369665100;1;16;11;17;Recoge un beeper en la veta
+2024-05-27T21:29:49.370669100;1;16;11;18;Recoge un beeper en la veta
+2024-05-27T21:29:49.371067600;1;16;11;21;Recoge un beeper en la veta
+2024-05-27T21:29:49.372677800;1;16;11;25;Recoge un beeper en la veta
+2024-05-27T21:29:49.373684300;1;16;11;40;Recoge un beeper en la veta
+2024-05-27T21:29:49.374684100;1;16;11;41;Recoge un beeper en la veta
+2024-05-27T21:29:49.375683100;1;16;11;43;Recoge un beeper en la veta
+2024-05-27T21:29:49.376683700;1;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.378187300;0;17;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.379191300;2;13;11;1;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.382194900;2;13;11;5;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.383195500;2;13;11;12;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.385196100;0;17;11;16;Recoge un beeper en la veta
+2024-05-27T21:29:49.386196900;2;13;11;21;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.387196700;0;17;11;25;Recoge un beeper en la veta
+2024-05-27T21:29:49.388700;2;13;11;25;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.389707900;0;17;11;34;Recoge un beeper en la veta
+2024-05-27T21:29:49.390712400;2;13;11;33;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.391716800;0;17;11;36;Recoge un beeper en la veta
+2024-05-27T21:29:49.392712900;2;13;11;40;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.393712;0;17;11;47;Recoge un beeper en la veta
+2024-05-27T21:29:49.395712500;0;16;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.396713300;2;13;11;51;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.398217800;2;13;11;57;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.399223;2;13;11;58;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.400221900;2;13;11;71;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.401224400;2;13;11;77;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.402665200;2;13;11;84;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.403671800;2;13;11;97;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.405670200;2;13;11;104;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.406670100;2;13;11;117;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.408176600;2;13;11;120;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.409182100;1;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.410182600;1;17;11;2;Recoge un beeper en la veta
+2024-05-27T21:29:49.411209700;1;17;11;8;Recoge un beeper en la veta
+2024-05-27T21:29:49.412210300;1;17;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:49.413209900;1;17;11;14;Recoge un beeper en la veta
+2024-05-27T21:29:49.414208900;1;17;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:49.415209900;1;17;11;18;Recoge un beeper en la veta
+2024-05-27T21:29:49.416209900;1;17;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:49.417211700;1;17;11;28;Recoge un beeper en la veta
+2024-05-27T21:29:49.418209100;1;17;11;34;Recoge un beeper en la veta
+2024-05-27T21:29:49.420239400;1;17;11;40;Recoge un beeper en la veta
+2024-05-27T21:29:49.421238200;1;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.422236800;0;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.424237400;0;17;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.425237400;0;17;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:49.426237300;0;17;11;18;Recoge un beeper en la veta
+2024-05-27T21:29:49.428236;0;17;11;20;Recoge un beeper en la veta
+2024-05-27T21:29:49.428739500;0;17;11;32;Recoge un beeper en la veta
+2024-05-27T21:29:49.429745300;0;17;11;38;Recoge un beeper en la veta
+2024-05-27T21:29:49.430745;0;17;11;42;Recoge un beeper en la veta
+2024-05-27T21:29:49.431663900;0;17;11;48;Recoge un beeper en la veta
+2024-05-27T21:29:49.432205900;0;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.432717200;1;17;11;1;Recoge un beeper en la veta
+2024-05-27T21:29:49.433721;1;17;11;2;Recoge un beeper en la veta
+2024-05-27T21:29:49.434722;3;9;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.435721200;1;17;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:49.436251100;1;17;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:49.437257200;1;17;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:49.438261500;1;17;11;23;Recoge un beeper en la veta
+2024-05-27T21:29:49.440363700;1;17;11;29;Recoge un beeper en la veta
+2024-05-27T21:29:49.441363600;1;17;11;30;Recoge un beeper en la veta
+2024-05-27T21:29:49.441477900;3;13;11;19;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.443800700;1;17;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:49.444804;1;17;11;45;Recoge un beeper en la veta
+2024-05-27T21:29:49.446808500;1;17;11;47;Recoge un beeper en la veta
+2024-05-27T21:29:49.447809100;3;13;11;39;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.448903200;3;13;11;41;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.449904200;3;13;11;50;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.450940700;3;13;11;61;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.451941;3;13;11;63;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.452941300;3;13;11;67;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.453331400;3;13;11;78;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.453941100;3;13;11;81;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.454974600;3;13;11;89;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.455791200;3;13;11;101;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.457799700;3;13;11;118;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.459148400;0;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.461149100;0;16;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.462149;0;18;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.463148500;0;18;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:49.464149100;0;18;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:49.465148600;0;18;11;9;Recoge un beeper en la veta
+2024-05-27T21:29:49.466147800;0;18;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:49.467148600;0;18;11;17;Recoge un beeper en la veta
+2024-05-27T21:29:49.469157400;0;18;11;26;Recoge un beeper en la veta
+2024-05-27T21:29:49.470162;0;18;11;37;Recoge un beeper en la veta
+2024-05-27T21:29:49.472102700;0;18;11;44;Recoge un beeper en la veta
+2024-05-27T21:29:49.473107300;0;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.474107100;1;17;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.475107400;2;9;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.476107;1;18;11;4;Recoge un beeper en la veta
+2024-05-27T21:29:49.477108800;1;18;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:49.478107700;2;13;11;9;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.480350400;2;13;11;10;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.481350200;1;18;11;24;Recoge un beeper en la veta
+2024-05-27T21:29:49.482351800;1;18;11;27;Recoge un beeper en la veta
+2024-05-27T21:29:49.485351400;1;18;11;28;Recoge un beeper en la veta
+2024-05-27T21:29:49.486353;2;13;11;28;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.487856100;2;13;11;30;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.490862200;1;18;11;42;Recoge un beeper en la veta
+2024-05-27T21:29:49.491862200;2;13;11;41;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.495862300;2;13;11;46;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.496861800;2;13;11;54;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.497862400;2;13;11;55;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.498926;2;13;11;70;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.499926700;2;13;11;74;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.500925800;2;13;11;78;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.501650800;2;13;11;94;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.503660100;2;13;11;108;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.504660200;2;13;11;114;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.506758;2;13;11;120;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.510269;0;18;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.511267300;0;18;11;1;Recoge un beeper en la veta
+2024-05-27T21:29:49.512267700;0;18;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:49.513268600;0;18;11;5;Recoge un beeper en la veta
+2024-05-27T21:29:49.513890500;0;18;11;7;Recoge un beeper en la veta
+2024-05-27T21:29:49.514894700;0;18;11;10;Recoge un beeper en la veta
+2024-05-27T21:29:49.517405;0;18;11;14;Recoge un beeper en la veta
+2024-05-27T21:29:49.517908500;0;18;11;30;Recoge un beeper en la veta
+2024-05-27T21:29:49.520538600;0;18;11;45;Recoge un beeper en la veta
+2024-05-27T21:29:49.521542900;0;18;11;50;Recoge un beeper en la veta
+2024-05-27T21:29:49.523420200;0;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.524425400;1;16;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.525426;1;18;11;5;Recoge un beeper en la veta
+2024-05-27T21:29:49.526426200;1;18;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:49.527931400;1;18;11;22;Recoge un beeper en la veta
+2024-05-27T21:29:49.528935300;1;18;11;32;Recoge un beeper en la veta
+2024-05-27T21:29:49.530935100;1;16;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.533447200;1;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.535445300;0;19;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.536446800;0;19;11;6;Recoge un beeper en la veta
+2024-05-27T21:29:49.538957900;3;13;11;11;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.539957400;3;13;11;17;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.541957400;0;19;11;18;Recoge un beeper en la veta
+2024-05-27T21:29:49.542957300;3;13;11;26;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.543957400;0;19;11;27;Recoge un beeper en la veta
+2024-05-27T21:29:49.545958;3;13;11;33;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.546956;0;19;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:49.549465200;3;13;11;38;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.550470100;3;13;11;43;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.551469500;0;19;11;49;Recoge un beeper en la veta
+2024-05-27T21:29:49.551526;3;13;11;48;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.553977400;3;13;11;61;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.554978300;3;13;11;65;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.555977200;3;13;11;68;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.556977700;3;13;11;81;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.557977500;3;13;11;85;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.558998200;3;13;11;89;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.559998700;3;13;11;104;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.560997600;3;13;11;105;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.561999700;3;13;11;118;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.562998;3;13;11;120;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.563998500;1;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.564628500;1;19;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.566636200;1;19;11;1;Recoge un beeper en la veta
+2024-05-27T21:29:49.568139800;1;19;11;4;Recoge un beeper en la veta
+2024-05-27T21:29:49.569143900;1;19;11;7;Recoge un beeper en la veta
+2024-05-27T21:29:49.570146;1;19;11;12;Recoge un beeper en la veta
+2024-05-27T21:29:49.571146;1;19;11;16;Recoge un beeper en la veta
+2024-05-27T21:29:49.572144700;1;19;11;20;Recoge un beeper en la veta
+2024-05-27T21:29:49.574144800;1;19;11;27;Recoge un beeper en la veta
+2024-05-27T21:29:49.575151900;1;19;11;40;Recoge un beeper en la veta
+2024-05-27T21:29:49.577144300;1;19;11;46;Recoge un beeper en la veta
+2024-05-27T21:29:49.578144400;1;14;11;50;Pasa por un semaforo
+2024-05-27T21:29:49.579653400;0;16;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.580658600;0;19;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.583657700;2;13;11;5;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.584657400;2;13;11;9;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.586657500;2;13;11;17;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.588161900;2;13;11;20;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.590167200;2;13;11;25;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.591202100;2;13;11;31;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.594199700;0;19;11;36;Recoge un beeper en la veta
+2024-05-27T21:29:49.595200100;2;13;11;42;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.597199100;0;19;11;46;Recoge un beeper en la veta
+2024-05-27T21:29:49.598198900;2;13;11;54;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.600441400;2;13;11;60;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.601373600;2;13;11;61;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.601440700;2;13;11;70;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.602946400;2;13;11;88;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.603950800;2;13;11;90;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.604950800;2;13;11;109;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.605950600;2;13;11;120;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.609803300;1;19;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.610804900;1;19;11;3;Recoge un beeper en la veta
+2024-05-27T21:29:49.611803300;1;19;11;5;Recoge un beeper en la veta
+2024-05-27T21:29:49.613780100;1;19;11;8;Recoge un beeper en la veta
+2024-05-27T21:29:49.614786900;1;19;11;15;Recoge un beeper en la veta
+2024-05-27T21:29:49.615786500;1;19;11;25;Recoge un beeper en la veta
+2024-05-27T21:29:49.616786600;1;19;11;28;Recoge un beeper en la veta
+2024-05-27T21:29:49.618291300;1;19;11;29;Recoge un beeper en la veta
+2024-05-27T21:29:49.618350800;1;19;11;39;Recoge un beeper en la veta
+2024-05-27T21:29:49.619298200;1;19;11;45;Recoge un beeper en la veta
+2024-05-27T21:29:49.620298100;1;19;11;49;Recoge un beeper en la veta
+2024-05-27T21:29:49.621298200;0;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.622297900;0;19;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.623298100;0;16;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.624298500;3;13;11;1;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.625297900;0;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.626296900;3;13;11;19;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.628809700;3;13;11;27;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.629807800;3;13;11;39;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.630809;3;13;11;47;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.632313600;3;13;11;59;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.633318200;3;13;11;60;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.634320400;3;13;11;78;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.635319300;3;13;11;79;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.636318900;3;13;11;95;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.637826100;3;13;11;99;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.638830900;3;13;11;108;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.639831500;3;13;11;119;Tren recoge un beeper en el punto de entrega
+2024-05-27T21:29:49.641832300;1;15;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.642831200;1;16;11;0;Pasa por un semaforo
+2024-05-27T21:29:49.644054200;1;14;11;0;Pasa por un semaforo
